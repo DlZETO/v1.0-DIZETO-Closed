@@ -1,0 +1,20 @@
+{
+  "name": "dizeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/css/tailwind-input.css -o ./src/css/tailwind.css --watch",
+    "minify": "npx tailwindcss -i ./src/css/tailwind-input.css -o ./src/css/tailwind.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3",
+    "jquery": "^3.6.3"
+  }
+}
